@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Basketball">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="78dp"
+        tools:ignore="MissingConstraints"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="47dp"
+            android:layout_gravity="top|center"
+            android:orientation="horizontal"
+            android:background="@drawable/bas"
+            >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="198dp"
+            android:layout_height="490dp"
+            android:layout_gravity="left|center"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+
+            <TextView
+                android:id="@+id/Home"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_gravity="center"
+                android:text=" Home"
+                android:textColor="#d91c0e"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/HomeS"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="0"
+                android:textStyle="bold"
+                android:textColor="#0e0e0e"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/HomeFour"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:text="0"
+                android:textColor="#d91c0e"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/Home2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/p2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/Home3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/p3"
+                android:layout_marginLeft="5dp"
+                />
+
+            <Button
+                android:id="@+id/Home1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/p1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <Button
+                android:id="@+id/HomeF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/f"
+                />
+
+
+            <Button
+                android:id="@+id/Start"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/start"
+                android:layout_marginLeft="5dp"/>
+            <Button
+                android:id="@+id/Buzzer"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buzzer"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="193dp"
+            android:layout_height="490dp"
+            android:layout_gravity="right|center"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="214dp"
+            tools:layout_editor_absoluteY="8dp">
+
+
+            <TextView
+                android:id="@+id/Away"
+                android:layout_width="70dp"
+                android:layout_height="31dp"
+                android:layout_gravity="center"
+                android:text=" Away"
+                android:textColor="#d91c0e"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/AwayS"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="0"
+                android:textStyle="bold"
+                android:textColor="#0e0e0e"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/AwayFour"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_gravity="left"
+                android:text="0"
+                android:textColor="#d91c0e"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/Away2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/p2a"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:id="@+id/Away3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/p3a"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:id="@+id/Away1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/p1a"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:id="@+id/AwayF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fa"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+
+            <Button
+                android:id="@+id/Stop"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/stop"
+                android:layout_marginRight="5dp"/>
+
+
+            <Button
+                android:id="@+id/Reset"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/reset"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
+
+
+            <Chronometer
+                android:id="@+id/timer"
+                android:layout_width="285dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textSize="40sp" />
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/save" />
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

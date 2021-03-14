@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Start_Main">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/main"
+        android:layout_width="389dp"
+        android:layout_height="406dp"
+        android:layout_gravity="center|bottom"
+        app:srcCompat="@drawable/start_main2"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <ImageView
+        android:id="@+id/main2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="90dp"
+        app:srcCompat="@drawable/start_main"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="48dp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="right"
+        android:text="2014722075 이동준" />
+</FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

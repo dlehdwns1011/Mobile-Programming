@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="2014722075 이동준" />
+
+        <TextView
+            android:id="@+id/maintext"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="top"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/score"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="20dp" />
+        <ImageButton
+            android:id="@+id/basket"
+            android:layout_width="398dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:background="#ffffff"
+            app:srcCompat="@drawable/basket2" />
+
+        <Button
+            android:id="@+id/load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/record" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="119dp"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/naver"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_gravity="left|center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/naversports" />
+
+            <Button
+                android:id="@+id/kbl"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center|center"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/kbl" />
+
+            <Button
+                android:id="@+id/nba"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_gravity="right|center"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/nba" />
+
+        </LinearLayout>
+    </LinearLayout>
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>
